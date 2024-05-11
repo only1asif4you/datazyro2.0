@@ -1,0 +1,146 @@
+/* xxl - DEVICE START */
+@media(min-width:1399px){
+}
+/* xxl - DEVICE END */
+
+
+/* xl - DEVICE START */
+@media(min-width:1200px){
+}
+/* xl - DEVICE END */
+
+
+/* LAPTOP DEVICE START*/
+@media(min-width:1024px){
+  .nav-item {
+    margin-left: 15px;
+}
+}
+/* LAPTOP DEVICE END*/
+
+
+/* lg - DEVICE START */
+@media(max-width:992px){
+}
+/* lg - DEVICE END */
+
+
+@media (max-width: 850px) {
+    .form {
+      grid-template-columns: 1fr;
+    }
+  
+    .contact-info:before {
+      bottom: initial;
+      top: -75px;
+      right: 65px;
+      transform: scale(0.95);
+    }
+  
+    .contact-form:before {
+      top: -13px;
+      left: initial;
+      right: 70px;
+    }
+  
+    .square {
+      transform: translate(140%, 43%);
+      height: 350px;
+    }
+  
+    .big-circle {
+      bottom: 75%;
+      transform: scale(0.9) translate(-40%, 30%);
+      right: 50%;
+    }
+  
+    .text {
+      margin: 1rem 0 1.5rem 0;
+    }
+  
+    .social-media {
+      padding: 1.5rem 0 0 0;
+    }
+}
+
+
+/* md / TABLET - DEVICE START */
+@media(max-width:768px){
+  .footer_item{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+/* md / TABLET - DEVICE END */
+
+
+/* sm / MOBILE - DEVICE START */
+@media(max-width:576px){
+  .footer_item{
+    width: 100%;
+}
+}
+/* sm / MOBILE - DEVICE END */
+
+
+/* EXTRA SMALL - DEVICE START */
+@media(max-width:500px){
+} 
+
+@media(max-width:425px){
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 1.5rem;
+  }
+
+  .contact-info:before {
+    display: none;
+  }
+
+  .square,
+  .big-circle {
+    display: none;
+  }
+
+  form,
+  .contact-info {
+    padding: 1.7rem 1.6rem;
+  }
+
+  .text,
+  .information,
+  .social-media p {
+    font-size: 0.8rem;
+  }
+
+  .title {
+    font-size: 1.15rem;
+  }
+
+  .social-icons a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .icon {
+    width: 23px;
+  }
+
+  .input {
+    padding: 0.45rem 1.2rem;
+  }
+
+  .submit_btn {
+    padding: 0.45rem 1.2rem;
+  }
+}
+
+@media(max-width:375px){
+}
+
+@media(max-width:320px){
+}
+/* EXTRA SMALL - DEVICE END */
